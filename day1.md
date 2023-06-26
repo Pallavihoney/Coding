@@ -14,3 +14,5 @@ Java code - reverse linked list,removing elements
 24-06-2023
 Java code in leetcode - done two programms
 
+25-06-2023
+Created StudentCrudoperations in springboot

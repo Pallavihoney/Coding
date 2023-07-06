@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="name">Name:</label>
+        <input type="text" name="height" required><br>
+
+        <label for="age">Age:</label>
+        <input type="text" name="height" required><br>
+
+        <label for="height">Height (cm):</label>
+        <input type="text" name="height" required><br>
+
+        <label for="weight">Weight (kg):</label>
+        <input type="text" name="weight" required><br>
+
+        <label for="mobile_number">Mobile_number:</label>
+        <input type="text" name="height" required><br>
+    </form>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Calculate BMI</button>
+      </form>
+      
+</body>
+</html>
+  
+
+	
+
